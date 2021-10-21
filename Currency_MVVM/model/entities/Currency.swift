@@ -7,3 +7,11 @@
 //
 
 import Foundation
+struct Currency {
+    var currency : String
+    var value : Double
+    
+}
+struct Data : Codable{
+    var rates : Dictionary<String,Double>
+}

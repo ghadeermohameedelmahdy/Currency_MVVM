@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+let CURRENCY_URL = "https://api.exchangeratesapi.io/latest"
+let KEY = "rates"

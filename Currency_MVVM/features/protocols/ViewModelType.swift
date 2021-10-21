@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
+protocol ViewModelType {
+    var dataDriver : Driver<[Currency]>{set get}
+    func fetchDataFromNetwork()
+    func filterData(word:String)
+    
+    
+}
